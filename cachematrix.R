@@ -1,5 +1,7 @@
 ## A pair of functions that cache the inverse of a matrix
 ## Assumes that the matrix passed in is square and has an inverse
+## Example Usage:  myM <- makeCacheMatrix(matrix(c(1,2,3,4), nrow = 2, ncol = 2))
+##                 cacheSolve(myM)
 
 ## This function creates a special "matrix" object that can cache its inverse
 
